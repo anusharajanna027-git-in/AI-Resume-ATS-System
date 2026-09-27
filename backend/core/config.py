@@ -17,10 +17,7 @@ APP_DESCRIPTION = 'analyse resumes against job description using nlp + ml'
 
 #Cors-Cross Origin Resource Sharing-sometime the web browser could not allows directly a call from any origin to our website so we need to sepcify the origins that our website will aloows the origins 
 ALLOWED_ORIGINS = [
-    "http://localhost:5173",#vite dev Server(react)
-    "http://localhost:3000"#create ReactApp Fallback
-    "http://127.0.0.1:5173"
-
+    "https://ai-resume-ats-system-vktbzzbhvrqmbdtasdjrkr.streamlit.app/"
 ]
  
 #file 
