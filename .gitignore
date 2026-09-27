@@ -1,0 +1,51 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# Generated PDFs
+*.pdf
+
+# Large/generated model files
+*.pkl
+*.h5
+*.pt
+*.pth
+*.safetensors
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Datasets
+*.csv
+
+# Models
+models/
+
+# Logs
+*.log
+logs/
+
+# Generated PDFs
+*.pdf
