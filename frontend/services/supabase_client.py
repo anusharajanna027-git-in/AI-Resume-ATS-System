@@ -65,7 +65,7 @@ def sign_in_with_password(email: str, password: str) -> Dict[str, Any]:
     if err:
         return {'error': err}
     try:
-        resp = get_client().auth.sign_up(
+        resp = get_client().auth.sign_in_with_password(
             {'email': email, 'password': password}
         )
         if not resp.session or not resp.user:
